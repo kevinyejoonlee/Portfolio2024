@@ -1,0 +1,53 @@
+.ImageCollage{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+   
+}
+
+
+.Collage_Container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.imageFormat {
+    min-width: 288px;
+    min-height: 320px;
+    max-width: 288px;
+    max-height: 320px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px var(--shadow-color);
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .imageFormat {
+        min-width: 176px;
+        min-height: 195.555px;
+        max-width: 176px;
+        max-width: 195.555px;
+    }
+
+    .Collage_Container{
+        gap: 2rem;
+    }
+}
+
+
+.Collage_Container > :nth-child(1),
+.Collage_Container > :nth-child(3),
+.Collage_Container > :nth-child(4) {
+    transform: rotate(2deg);
+}
+
+.Collage_Container > :nth-child(2),
+.Collage_Container > :nth-child(5){
+    transform: rotate(-2deg);
+}

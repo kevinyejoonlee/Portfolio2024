@@ -1,0 +1,138 @@
+
+.workExperience_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 5rem 6rem 0 5rem;
+    height: 25rem;
+    height: 50vh;
+    
+}
+
+
+.job_Container{
+    display: flex;
+    gap: 2rem;
+ 
+}
+
+.job_buttons{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 20%;
+}
+
+.job_buttons > button{
+    border: none;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 1.4rem;
+    margin-top:1rem;
+    color: var(--main-text);
+}
+
+
+#details_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#job_buttons > *{
+    max-width: fit-content;
+    
+}
+
+.activebutton {
+    color: var(--accent-color);
+    padding-left: 13px;
+    border-left: solid 3px var(--accent-color) !important; 
+}
+
+
+
+.activeJobTitle{
+    font-size: 1.5rem;
+    color: var(--main-text);
+}
+
+.date{
+    font-size: 0.875rem;
+    color: var(--light-grey);
+}
+
+.bulletpoints{
+    font-size: 1rem;
+    color: var(--main-text);
+    margin-top: 10px;
+}
+
+.job_buttons > button:hover{
+
+    color: var(--accent-color);
+}
+
+
+@media (max-width: 640px) {
+
+    .workExperience_container{
+        display: flex;
+        flex-direction: column;
+
+        margin: 0rem 1rem 11rem 0rem;
+
+        height: 50vh;
+    }
+
+    .job_Container{
+        flex-direction: column;
+
+    }
+
+   .job_buttons{
+        display: flex;
+        gap: 10px;
+        border: none;
+        width: max-content;
+       
+    }
+
+
+    .job_buttons > button{
+
+        font-weight: 500;
+        text-align: left;
+        padding: 0;
+        font-size: 1rem;
+        color: var(--main-text);
+        padding-bottom: 5px;
+        
+    }
+
+  
+
+    #details_container{
+        width: 100%;
+        
+    }
+
+    .activebutton {
+        color: var(--accent-color);
+
+        border-left: none !important; 
+        border-bottom: solid 3px var(--accent-color) !important; 
+    }
+
+    .activeJobTitle{
+        font-size: 1rem;
+        color: var(--main-text);
+        
+    }
+
+    .date{
+        font-size: 12px;
+       
+    }
+}

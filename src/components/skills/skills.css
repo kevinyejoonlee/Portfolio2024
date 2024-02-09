@@ -1,0 +1,112 @@
+
+#skills{
+    margin-bottom: 3rem;
+}
+
+.skills_container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+  
+    margin: 0rem 5rem 0rem 5rem
+
+}
+
+.skill_container_items{
+    
+    width: 33.333%;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px var(--shadow-color);
+    border: 1px solid var(--border-grey);
+
+}
+
+.bubble_title{
+    font-size: 24px;
+    color: var(--main-text);
+}
+
+.buble_subtitle{
+    font-size: 14px;
+    color: var(--dark-grey);
+}
+
+
+.skill_container_items > *{
+    padding-bottom: 1rem;
+
+}
+
+.skills_container > *:hover {
+    background-color: var(--semi-background);
+    transition: background 0.15s ease;
+    background-color:var(--hover-grey);
+}
+
+.skillIcons{
+    width: 3.5rem;
+    height: 3.5rem;;
+    stroke: var(--main-text);
+    margin: 0;
+}
+
+.skillIconsColor{
+    fill: var(--main-text);
+    width: 3.7rem;
+    height: 3.7rem;;
+
+}
+
+/* skills bubbles */
+.skillsItems{
+    display: flex;
+    flex-direction: column;
+  
+    gap: 7px;
+}
+
+
+.skillsItems > *{
+
+    width: max-content;
+    padding: 3px;
+
+    font-size: 14px;
+    color: var(--dark-grey);
+    
+}
+
+@media (max-width: 640px) {
+    .skills_container {
+        margin: 0 1rem 0 1rem;
+        flex-direction: column;
+    }
+
+    .skill_container_items{
+
+        width: 100%;
+    
+    }
+
+    .bubble_title{
+        font-size: 20px;
+
+    }
+    
+    .buble_subtitle{
+        font-size: 12px;
+      
+    }
+    
+
+    .skillsItems > *{
+
+  
+    
+        font-size: 12px;
+       
+        
+    }
+
+}

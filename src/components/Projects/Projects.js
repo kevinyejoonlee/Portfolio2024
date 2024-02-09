@@ -1,0 +1,103 @@
+import React, { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
+
+import './Projects.css';
+import link from "../../assets/symbols/link.svg";
+import autoscore from "../../assets/symbols/autoscore.png";
+import memegame from "../../assets/symbols/memegame.jpg";
+import portfolio from "../../assets/symbols/portfolio.jpg";
+import ctrl_y from "../../assets/symbols/ctrl_y.jpg";
+import todo from "../../assets/symbols/todo.jpeg";
+
+const Projects = () => {
+  const projectRefs = useRef([]);
+
+  useEffect(() => {
+    projectRefs.current.forEach(ref => {
+      VanillaTilt.init(ref, {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+      });
+    });
+  }, []);
+
+  const projects = [
+    
+  ,{
+      image: autoscore,
+      title: "AutoScore",
+      description: "This project aids teaching assistance by automating the process of grading assignments for a Java course, marking the code, and seamlessly submitting the grades to MyLearningSpace.",
+      skills: ["#JFrames", "#AbstractSyntaxTrees", "#JUnitTesting", "#Agile"],
+      githubLink: "https://github.com/kevinyejoonlee/AutoScore",
+      liveLink: ""
+    },
+    {
+      image: memegame,
+      title: "Meme-Memory",
+      description: "Meme-Memory is an innovative and fun memory game that combines the classic challenge of 'Simon Says' with the vibrant culture of internet memes.",
+      skills: ["#jQuery", "#HTML", "#CSS"],
+      githubLink: "https://github.com/kevinyejoonlee/Meme-Memory-Game",
+      liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
+    },
+    {
+      image: ctrl_y,
+      title: "CTRL + Y",
+      description: "UW Designathon 2023 repo CTRL + y is a designathon with the focus of designing innovative solutions for the rapidly evolving future of tech.",
+      skills: ["#Vue.js", "#DesignathonGroup"],
+      githubLink: "https://github.com/uwctrl-y/uwctrly",
+      liveLink: "https://ctrlplusy.ca/"
+    },
+    {
+      image: portfolio,
+      title: "Portfolio Website",
+      description: "Developed a portfolio web application tailored to showcase professional and creative work in a visually engaging and organized manner. Inspired by Tailwind UI Spotlight.",
+      skills: ["#React.js", "#Node.js", "#Firebase", "#InspiredByTailwindUI"],
+      githubLink: "",
+      liveLink: ""
+    },
+    {
+      image: todo,
+      title: "To Do List",
+      description: "Created a to do list application. Using Express.js and EJS. Replicated client and server side requests and responses.",
+      skills: ["#Express.js", "#EmbeddedJavaScript", "#HTTP"],
+      githubLink: "https://github.com/kevinyejoonlee/to-do-list",
+      liveLink: ""
+    }
+
+  ];
+
+  return (
+    <section id='Body'>
+      <div className="maxwidth-60 margin-title">
+        <h1 className='title'>Projects</h1>
+        <h1 className="paragraph">
+          Here are a few personal projects & a few cool things I got to work on.
+        </h1>
+      </div>
+
+      <section className="Projects_Container">
+        {projects.map((project, index) => (
+          <div className="Project_items" key={index} ref={el => projectRefs.current[index] = el}>
+            <h1 className="project_title">{project.title}</h1>
+            <img className="project_image" src={project.image} alt={project.title} />
+            <p className="project_description">{project.description}</p>
+            <div className="project_skills">{project.skills.map(skill => <span key={skill}>{skill}</span>)}</div>
+            <div className="buttons_container">
+              {project.liveLink && (
+                <a href={project.liveLink} className="button see_live">See Live</a>
+              )}
+              <a className="github_link" href={project.githubLink}>
+                <img className="linkImg" src={link} alt="Link icon" />
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </div>
+        ))}
+      </section>
+    </section>
+  );
+};
+
+export default Projects;
