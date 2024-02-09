@@ -59,7 +59,7 @@ const jobs = {
 };
 
 function WorkExperience() {
-  const [activeJob, setActiveJob] = useState('ctrl');
+  const [activeJob, setActiveJob] = useState('kc');
   return (
 
     <div class="job_Container">
