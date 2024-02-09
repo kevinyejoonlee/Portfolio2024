@@ -6,7 +6,6 @@ import workpng from "../../assets/symbols/Work.png";
 import downloadCSV from "../../assets/symbols/downloadCSV.png";
 
 
-
 const jobs = {
 
 
@@ -16,7 +15,8 @@ const jobs = {
     date: "Jan 2024 – Present",
     details: [
         "•	Assisting a lead developer in devising solutions to automate club operations and streamlining routine administrative tasks.",
-       "•	 Current role more to come."
+       "• Engineered a novel application that converts music lyrics into dynamic slideshows, enhancing the visual experience of song presentations and performances.",
+       "• Implemented an interactive feedback system within the club’s app, allowing for real-time member engagement and continuous improvement of club activities."
       ]
   
   },

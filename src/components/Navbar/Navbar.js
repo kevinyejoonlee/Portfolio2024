@@ -4,6 +4,9 @@ import { NavLink, Link } from 'react-router-dom';
 import sun from "../../assets/symbols/sun.svg";
 import moon from "../../assets/symbols/moon.svg";
 
+
+var Resume = "https://drive.google.com/file/d/1qezEVVV9De76aoAdJ1X0Ib05PZ0K7A84/view?usp=sharing";
+
 const Navbar = () => {
 
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -42,7 +45,7 @@ const Navbar = () => {
         <Link to="/" className="desktopMenuListItem Home">Home</Link>
         <NavLink to="/experience" className="desktopMenuListItem" activeClassName="activeLink">Experience</NavLink>
         <NavLink to="/projects" className="desktopMenuListItem" activeClassName="activeLink">Projects</NavLink>
-        <NavLink to="https://drive.google.com/file/d/1F0GIoTV6Afzt9QKBjEwUmrRSdOtqbLVS/view?usp=sharing" className="desktopMenuListItem" activeClassName="activeLink">Resume</NavLink> 
+        <NavLink to={Resume} className="desktopMenuListItem" activeClassName="activeLink">Resume</NavLink> 
       </div>
 
       <button class="Hamburger" onClick={toggleMenu}>
@@ -64,7 +67,7 @@ const Navbar = () => {
           <NavLink to="/" className="HamburgerMenuItem" activeClassName="actactiveLinkive" onClick={handleMenuItemClick}>Home</NavLink>
           <NavLink to="/experience" className="HamburgerMenuItem" activeClassName="activeLink" onClick={handleMenuItemClick}>Experience</NavLink>
           <NavLink to="/projects" className="HamburgerMenuItem" activeClassName="activeLink" onClick={handleMenuItemClick}>Projects</NavLink>
-          <NavLink to="https://drive.google.com/file/d/1qezEVVV9De76aoAdJ1X0Ib05PZ0K7A84/view?usp=sharing" className="HamburgerMenuItem" onClick={handleMenuItemClick} >Resume</NavLink> 
+          <NavLink to={Resume} className="HamburgerMenuItem" onClick={handleMenuItemClick} >Resume</NavLink> 
       </div>
        
       <button onClick={toggleTheme} id="apperance_b">
