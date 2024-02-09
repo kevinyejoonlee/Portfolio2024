@@ -28,8 +28,9 @@
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+
     gap: 1rem;
-    width: 25rem;
+    width: 32%;
     box-shadow: 5px 5px 15px var(--shadow-color);
     border: 1px solid var(--border-grey);
     color: var(--main-text);
@@ -134,7 +135,17 @@
     color: rgb(191,103,32);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1017px) {
+    .Project_items{
+
+        width: 48%;
+        
+    }
+
+  
+}
+
+@media (max-width: 903px) {
     #section_title{
     margin: 1rem 0 1rem 4rem;
     }

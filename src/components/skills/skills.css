@@ -77,7 +77,7 @@
     
 }
 
-@media (max-width: 640px) {
+@media (max-width: 903px) {
     .skills_container {
         margin: 0 1rem 0 1rem;
         flex-direction: column;

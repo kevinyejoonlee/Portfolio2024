@@ -78,7 +78,7 @@
     display: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 903px) {
     .Navbar {    
         justify-content: end;
         margin: 0 0rem 2.5rem 0rem;
