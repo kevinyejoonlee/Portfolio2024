@@ -54,8 +54,8 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "Developed a portfolio web application tailored to showcase professional and creative work in a visually engaging and organized manner. Inspired by Tailwind UI Spotlight.",
       skills: ["#React.js", "#Node.js", "#Firebase", "#InspiredByTailwindUI"],
-      githubLink: "",
-      liveLink: ""
+      githubLink: "https://github.com/kevinyejoonlee/Kevin_Portfolio2024",
+      liveLink: "https://kevinyejoonlee.com/"
     },
     {
       image: todo,

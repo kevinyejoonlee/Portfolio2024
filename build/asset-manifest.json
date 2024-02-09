@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c15bd7b.css",
+    "main.js": "/static/js/main.76c507cd.js",
+    "static/media/guitar2.jpg": "/static/media/guitar2.33c19cbf69c5dc7c5134.jpg",
+    "static/media/laptop.jpg": "/static/media/laptop.e6864c6af6b4792a3779.jpg",
+    "static/media/kcphoto3.jpg": "/static/media/kcphoto3.3ead425f3d19d07a9971.jpg",
+    "static/media/ranch_kevin.jpg": "/static/media/ranch_kevin.08b2c3c811ee1a007dc2.jpg",
+    "static/media/ctrl_y.jpg": "/static/media/ctrl_y.e9be5a7332ecc43eb31f.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.e2ee9223264bd3e6576a.jpg",
+    "static/media/bjj_win.JPG": "/static/media/bjj_win.d00f83bbba419003dc37.JPG",
+    "static/media/team_photo.JPG": "/static/media/team_photo.0ca433c9f6a3b623a8a8.JPG",
+    "static/media/memegame.jpg": "/static/media/memegame.f3685c21949c39e352dd.jpg",
+    "static/media/todo.jpeg": "/static/media/todo.bc13e96ba6184a824433.jpeg",
+    "static/media/autoscore.png": "/static/media/autoscore.6655726955df08b9b7e9.png",
+    "static/media/sun.svg": "/static/media/sun.da0e42137a3f3f95880bdc274d163947.svg",
+    "static/media/tools.svg": "/static/media/tools.d580a461b3b7d17fad4f777c7627cf36.svg",
+    "static/media/languages.svg": "/static/media/languages.f7fced0e23131a6cac7d528ac6361801.svg",
+    "static/media/link.svg": "/static/media/link.cd37e952c11c7428c92d6e5ea92c8b0c.svg",
+    "index.html": "/index.html",
+    "static/media/moon.svg": "/static/media/moon.3e93e6670f6d60ad3acdee48b48c60cf.svg",
+    "static/media/stack.svg": "/static/media/stack.bdb9ba4e584a536f88d2259ce78d1241.svg",
+    "main.1c15bd7b.css.map": "/static/css/main.1c15bd7b.css.map",
+    "main.76c507cd.js.map": "/static/js/main.76c507cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c15bd7b.css",
+    "static/js/main.76c507cd.js"
+  ]
+}

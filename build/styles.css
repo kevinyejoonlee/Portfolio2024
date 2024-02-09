@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+
+   
+  }
+  
+  body {
+
+    /* background:rgb(250,250,250); */
+    background:rgb(250,250,250);
+    color: rgb(39,39,42);
+    
+    font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+.iconpf{
+
+    object-fit: cover;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 3rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}

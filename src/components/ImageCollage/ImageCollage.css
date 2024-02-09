@@ -4,11 +4,11 @@
    
 }
 
-
 .Collage_Container{
     display: flex;
     justify-content: center;
     gap: 3rem;
+    animation: text_load 0.5s ease-in;
 }
 
 .imageFormat {
@@ -21,11 +21,6 @@
     object-fit: cover;
 
 }
-
-
-
-
-
 
 @media (max-width: 640px) {
     .imageFormat {

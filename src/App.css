@@ -6,26 +6,7 @@
     font-size: 14px;
 }
 
-
 :root{
-
-    --main-text: rgb(39,39,42);
-    --dark-grey: rgb(82,82,91); 
-    --light-grey: rgb(161,161,170); 
-    --border-grey: rgb(244,244,245);
-    --hover-grey: rgb(250, 250, 250);
-    --accent-color: rgb(17, 185, 164);
-    --background: rgb(250,250,250);
-    --semi-background: white;
-    --nav-bar: rgb(255,254,254);
-    --shadow-color: rgba(39,39,42,.05);
- 
-
-}
-
-
-.dark_theme{
-
     --main-text: rgb(244,244,245);
     --dark-grey: rgb(161,161,170); 
     --light-grey: rgb(161,161,170); 
@@ -37,9 +18,19 @@
     --nav-bar: rgb(37,37,41);
     --shadow-color: rgba(39,39,42,.05);
     --gitlink: rgb(34,188,136);
+}
 
-
- 
+.light_theme{
+    --main-text: rgb(39,39,42);
+    --dark-grey: rgb(82,82,91); 
+    --light-grey: rgb(161,161,170); 
+    --border-grey: rgb(244,244,245);
+    --hover-grey: rgb(250, 250, 250);
+    --accent-color: rgb(17, 185, 164);
+    --background: rgb(250,250,250);
+    --semi-background: white;
+    --nav-bar: rgb(255,254,254);
+    --shadow-color: rgba(39,39,42,.05);
 
 }
 
@@ -59,29 +50,20 @@
     margin-top: 0;;
     margin-left: auto;
     margin-right: auto;
-    /* height: fit-content; */
 
     border-left: 1px solid var(--border-grey);
     border-right: 1px solid var(--border-grey);
 
-    
-   
 }
-
-
-
 
 @media (max-width: 640px) {
     .white_background {
         width: 100%;
-   
     }
 }
 
 body{
     background-color: var(--background);
-   
-   
 }
 
 html, body{

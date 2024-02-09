@@ -19,7 +19,7 @@ const TypingEffect = () => {
         "a front-end developer",
         "an aspiring writer",
         "a musician",
-        "a BJJ white belt!"
+        "a Jiu Jitsu Player!"
       ],
       typeSpeed: 100,
       backSpeed: 30,
@@ -45,7 +45,7 @@ const Introduction = () => {
     <section id='Introduction'>
        
 
-        <h1 class="title">Kevin Ye-joon Lee<br></br>I'm <TypingEffect/></h1>
+        <h1 class="title">Kevin Ye-joon Lee<br></br>I'm  <TypingEffect/></h1>
         <div class="maxwidth-60">
           <h1 class="paragraph">
           I love creating and designing; it makes me feel alive. I believe a growth mindset and discipline can get you anywhere. I'm currently looking for internships in Spring/Fall 2024. If you like my work, please get in touch with me!

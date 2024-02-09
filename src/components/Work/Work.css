@@ -6,14 +6,13 @@
     margin: 5rem 6rem 0 5rem;
     height: 25rem;
     height: 50vh;
-    
 }
 
 
 .job_Container{
     display: flex;
     gap: 2rem;
- 
+    animation: text_load 0.5s ease-in;
 }
 
 .job_buttons{
@@ -51,8 +50,6 @@
     border-left: solid 3px var(--accent-color) !important; 
 }
 
-
-
 .activeJobTitle{
     font-size: 1.5rem;
     color: var(--main-text);
@@ -67,6 +64,7 @@
     font-size: 1rem;
     color: var(--main-text);
     margin-top: 10px;
+
 }
 
 .job_buttons > button:hover{
@@ -80,15 +78,12 @@
     .workExperience_container{
         display: flex;
         flex-direction: column;
-
-        margin: 0rem 1rem 11rem 0rem;
-
+        margin: 0rem 1rem 22svh 0rem;
         height: 50vh;
     }
 
     .job_Container{
         flex-direction: column;
-
     }
 
    .job_buttons{
@@ -96,12 +91,10 @@
         gap: 10px;
         border: none;
         width: max-content;
-       
     }
 
 
     .job_buttons > button{
-
         font-weight: 500;
         text-align: left;
         padding: 0;
@@ -111,16 +104,12 @@
         
     }
 
-  
-
     #details_container{
         width: 100%;
-        
     }
 
     .activebutton {
         color: var(--accent-color);
-
         border-left: none !important; 
         border-bottom: solid 3px var(--accent-color) !important; 
     }
@@ -128,11 +117,9 @@
     .activeJobTitle{
         font-size: 1rem;
         color: var(--main-text);
-        
     }
 
     .date{
         font-size: 12px;
-       
     }
 }
