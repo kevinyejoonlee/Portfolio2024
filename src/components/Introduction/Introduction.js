@@ -16,10 +16,10 @@ const TypingEffect = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Aspiring Java developer",
-        "I'm a front-end developer",
-        "I'm a musician",
-        "I'm a Jiu Jitsu player!"
+        "Front-End Developer",
+        "Aspiring Java Developer",
+        "Music Enthusiast",
+        "Jiu Jitsu player"
       ],
       typeSpeed: 100,
       backSpeed: 30,
@@ -45,7 +45,7 @@ const Introduction = () => {
     <section id='Introduction'>
        
 
-        <h1 class="title">Kevin Ye-joon Lee<br></br><TypingEffect/></h1>
+        <h1 class="title">Kevin Ye-Joon Lee<br></br><TypingEffect/></h1>
         <div class="maxwidth-60">
           <h1 class="paragraph">
           I love creating and designing; it makes me feel alive. I believe a growth mindset and discipline can get you anywhere. I'm currently looking for internships in Spring/Fall 2024. If you like my work, please get in touch with me!
