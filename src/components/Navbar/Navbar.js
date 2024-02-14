@@ -9,19 +9,19 @@ var Resume = "https://drive.google.com/file/d/1qezEVVV9De76aoAdJ1X0Ib05PZ0K7A84/
 
 const Navbar = () => {
 
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
   var [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const icon = document.getElementById("toggle_icon");
     icon.src = theme === 'light' ? sun : moon;
-    document.body.classList.toggle("light_theme", theme === 'dark');
+    document.body.classList.toggle("dark_theme", theme === 'dark');
     localStorage.setItem('theme', theme); 
   }, [theme]);
 
   const toggleTheme = () => {
     setTheme(prevTheme => {
-      const newTheme = prevTheme === 'dark' ? 'light' : 'dark';
+      const newTheme = prevTheme === 'light' ? 'dark' : 'light';
       localStorage.setItem('theme', newTheme); 
       return newTheme;
     });
