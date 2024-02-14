@@ -43,8 +43,8 @@ const Navbar = () => {
 
       <div className="desktopMenu">
         <Link to="/" className="desktopMenuListItem Home">Home</Link>
-        <NavLink to="/projects" className="desktopMenuListItem" activeClassName="activeLink">Projects</NavLink>
         <NavLink to="/experience" className="desktopMenuListItem" activeClassName="activeLink">Experience</NavLink>
+        <NavLink to="/projects" className="desktopMenuListItem" activeClassName="activeLink">Projects</NavLink>
         <NavLink to={Resume} className="desktopMenuListItem" activeClassName="activeLink">Resume</NavLink> 
       </div>
 
@@ -65,9 +65,8 @@ const Navbar = () => {
         </div>
         
           <NavLink to="/" className="HamburgerMenuItem" activeClassName="actactiveLinkive" onClick={handleMenuItemClick}>Home</NavLink>
-          <NavLink to="/projects" className="HamburgerMenuItem" activeClassName="activeLink" onClick={handleMenuItemClick}>Projects</NavLink>
           <NavLink to="/experience" className="HamburgerMenuItem" activeClassName="activeLink" onClick={handleMenuItemClick}>Experience</NavLink>
-
+          <NavLink to="/projects" className="HamburgerMenuItem" activeClassName="activeLink" onClick={handleMenuItemClick}>Projects</NavLink>
           <NavLink to={Resume} className="HamburgerMenuItem" onClick={handleMenuItemClick} >Resume</NavLink> 
       </div>
        
