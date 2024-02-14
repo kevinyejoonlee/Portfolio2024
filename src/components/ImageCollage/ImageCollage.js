@@ -13,24 +13,29 @@ const ImageCollage = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
-    VanillaTilt.init(tiltRef.current.querySelectorAll('.imageFormat'), {
+    const nodes = tiltRef.current.querySelectorAll('.imageFormat');
+    VanillaTilt.init(nodes, {
       max: 25,
       speed: 400,
-      scale: 1.1
-      
+      scale: 1.1,
     });
+  
+    nodes.forEach((node, index) => {
+      const tiltDegree = [0, 2, 3].includes(index) ? 2 : -2; 
+      node.style.transform = `rotate(${tiltDegree}deg)`;
+    });
+    
   }, []);
-
-
+  
 
   return (
-    <section className='ImageCollage'>
-      <div className="Collage_Container" ref={tiltRef}>
-        <img className="imageFormat" src={guitar} alt=""></img>
-        <img className="imageFormat" src={kcphoto} alt="" ></img>
-        <img className="imageFormat" src={laptop} alt="" ></img>
-        <img className="imageFormat" src={BJJ} alt="" ></img>
-        <img className="imageFormat" src={team} alt="" ></img>
+    <section className='ImageCollage' ref={tiltRef}>
+      <div className="Collage_Container">
+        <img className="imageFormat" src={guitar} alt="guitar"></img>
+        <img className="imageFormat" src={kcphoto} alt="kcphoto"></img>
+        <img className="imageFormat" src={laptop} alt="laptop"></img>
+        <img className="imageFormat" src={BJJ} alt="BJJ"></img>
+        <img className="imageFormat" src={team} alt="team"></img>
       </div>
     </section>
   );
