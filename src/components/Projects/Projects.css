@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     margin: 1rem 4rem 1rem 4rem;
     gap: 1rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 .Project_items{

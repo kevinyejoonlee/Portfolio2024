@@ -12,7 +12,7 @@
 .job_Container{
     display: flex;
     gap: 2rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 .job_buttons{

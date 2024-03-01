@@ -1,11 +1,11 @@
 @keyframes text_load {
     0%{
-        transform: translateY(5rem);
-        opacity: 0.6
+        transform: translateY(4rem);
+
 
     }
     100%{
         transform: translateY(0);
-        opacity: 1;
+
     }
 }

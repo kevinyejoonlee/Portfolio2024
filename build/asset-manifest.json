@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd823bf2.css",
+    "main.css": "/static/css/main.b30f028b.css",
     "main.js": "/static/js/main.cd61f5d9.js",
     "static/media/guitar2.jpg": "/static/media/guitar2.33c19cbf69c5dc7c5134.jpg",
     "static/media/laptop.jpg": "/static/media/laptop.e6864c6af6b4792a3779.jpg",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/moon.svg": "/static/media/moon.3e93e6670f6d60ad3acdee48b48c60cf.svg",
     "static/media/stack.svg": "/static/media/stack.bdb9ba4e584a536f88d2259ce78d1241.svg",
-    "main.cd823bf2.css.map": "/static/css/main.cd823bf2.css.map",
+    "main.b30f028b.css.map": "/static/css/main.b30f028b.css.map",
     "main.cd61f5d9.js.map": "/static/js/main.cd61f5d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd823bf2.css",
+    "static/css/main.b30f028b.css",
     "static/js/main.cd61f5d9.js"
   ]
 }

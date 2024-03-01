@@ -19,7 +19,7 @@
     margin: 1rem 0rem 1rem 6rem;
     color: var(--main-text);
     line-height: 3.5rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
     
 }
 
@@ -28,14 +28,14 @@
     font-weight: 600;
     color:  var(--main-text);
     line-height: 3.5rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 
 .typed-cursor {
     font-size: 4rem;
     animation: blink 1s infinite;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 
@@ -45,14 +45,14 @@
     font-size: 18px;
     margin: 1rem 0 1rem 6rem;
     line-height: 2rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 .socialMediaMenu_Container{
     margin: 24px 0 1rem 6rem;
     display: flex;
     gap: 1.5rem;
-    animation: text_load 0.5s ease-in;
+    animation: text_load 0.3s ease-in;
 }
 
 .socialIcon{
