@@ -9,6 +9,7 @@ import laptop from "../../assets/CollagePhotos/laptop.jpg";
 import BJJ from "../../assets/CollagePhotos/bjj_win.JPG"; 
 import team from "../../assets/CollagePhotos/team_photo.JPG"; 
 
+
 const ImageCollage = () => {
   const tiltRef = useRef(null);
 
@@ -17,7 +18,7 @@ const ImageCollage = () => {
     VanillaTilt.init(nodes, {
       max: 25,
       speed: 400,
-      scale: 1.1,
+  
     });
   
     nodes.forEach((node, index) => {

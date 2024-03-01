@@ -8,6 +8,8 @@ import memegame from "../../assets/symbols/memegame.jpg";
 import portfolio from "../../assets/symbols/portfolio.jpg";
 import ctrl_y from "../../assets/symbols/ctrl_y.jpg";
 import todo from "../../assets/symbols/todo.jpeg";
+import coming_soon from "../../assets/symbols/coming_soon.png"; 
+
 
 const Projects = () => {
   const projectRefs = useRef([]);
@@ -25,21 +27,13 @@ const Projects = () => {
 
   const projects = [
     
-  ,{
+  {
       image: autoscore,
       title: "AutoScore",
       description: "This project aids teaching assistance by automating the process of grading assignments for a Java course, marking the code, and seamlessly submitting the grades to MyLearningSpace.",
       skills: ["#JFrames", "#AbstractSyntaxTrees", "#JUnitTesting", "#Agile"],
       githubLink: "https://github.com/kevinyejoonlee/AutoScore",
       liveLink: ""
-    },
-    {
-      image: memegame,
-      title: "Meme-Memory",
-      description: "Meme-Memory is an innovative and fun memory game that combines the classic challenge of 'Simon Says' with the vibrant culture of internet memes.",
-      skills: ["#jQuery", "#HTML", "#CSS"],
-      githubLink: "https://github.com/kevinyejoonlee/Meme-Memory-Game",
-      liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
     },
     {
       image: ctrl_y,
@@ -49,13 +43,14 @@ const Projects = () => {
       githubLink: "https://github.com/uwctrl-y/uwctrly",
       liveLink: "https://ctrlplusy.ca/"
     },
+    ,
     {
-      image: portfolio,
-      title: "Portfolio Website",
-      description: "Developed a portfolio web application tailored to showcase professional and creative work in a visually engaging and organized manner. Inspired by Tailwind UI Spotlight.",
-      skills: ["#React.js", "#Node.js", "#Firebase", "#InspiredByTailwindUI"],
-      githubLink: "https://github.com/kevinyejoonlee/Kevin_Portfolio2024",
-      liveLink: "https://kevinyejoonlee.com/"
+      image: memegame,
+      title: "Meme-Memory",
+      description: "Meme-Memory is an innovative and fun memory game that combines the classic challenge of 'Simon Says' with the vibrant culture of internet memes.",
+      skills: ["#jQuery", "#HTML", "#CSS"],
+      githubLink: "https://github.com/kevinyejoonlee/Meme-Memory-Game",
+      liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
     },
     {
       image: todo,
@@ -65,6 +60,17 @@ const Projects = () => {
       githubLink: "https://github.com/kevinyejoonlee/to-do-list",
       liveLink: ""
     }
+    ,
+    {
+      image: portfolio,
+      title: "Portfolio Website",
+      description: "Developed a portfolio web application tailored to showcase professional and creative work in a visually engaging and organized manner. Inspired by Tailwind UI Spotlight.",
+      skills: ["#React.js", "#Node.js", "#Firebase", "#InspiredByTailwindUI"],
+      githubLink: "https://github.com/kevinyejoonlee/Kevin_Portfolio2024",
+      liveLink: "https://kevinyejoonlee.com/"
+    }
+    
+
 
   ];
 
