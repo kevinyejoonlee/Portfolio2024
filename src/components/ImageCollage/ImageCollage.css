@@ -9,6 +9,7 @@
     justify-content: center;
     gap: 3rem;
     animation: text_load 0.3s ease-in;
+
 }
 
 .imageFormat {
@@ -19,7 +20,8 @@
     border-radius: 15px;
     box-shadow: 5px 5px 15px var(--shadow-color);
     object-fit: cover;
-
+    animation: image_load 0.6s ease-in;
+  
 }
 
 
