@@ -48,7 +48,7 @@ const Navbar = () => {
         <NavLink to={Resume} className="desktopMenuListItem" activeClassName="activeLink">Resume</NavLink> 
       </div>
 
-      <button class="Hamburger" onClick={toggleMenu}>
+      <button className="Hamburger" onClick={toggleMenu}>
         Menu
         <svg viewBox="0 0 8 6" aria-hidden="true" className="Hamburger_icon">
           <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -57,10 +57,10 @@ const Navbar = () => {
 
       <div className={`HamburgerMenu ${isMenuOpen ? '' : 'hidden'}`}>
         <div>
-          <h1 class="navtitle">Navigation</h1>
+          <h1 className="navtitle">Navigation</h1>
 
-          <button class="exit-button" onClick={toggleMenu}>
-            <svg width="1rem" height="1rem" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><path class="exit_icon" d="M1.5 1.5L13.5 13.5M1.5 13.5L13.5 1.5" stroke="#000000"/></svg>
+          <button className="exit-button" onClick={toggleMenu}>
+            <svg width="1rem" height="1rem" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><path className="exit_icon" d="M1.5 1.5L13.5 13.5M1.5 13.5L13.5 1.5" stroke="#000000"/></svg>
           </button>
         </div>
         

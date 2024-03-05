@@ -21,7 +21,7 @@ import ExperencePage from "./pages/ExperiencePage.js";
 function App() {
   return (
 
-    <div class="white_background">
+    <div className="white_background">
     <div className="App">
       <Router>
         <Routes>

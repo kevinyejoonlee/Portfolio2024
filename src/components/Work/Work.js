@@ -62,8 +62,8 @@ function WorkExperience() {
   const [activeJob, setActiveJob] = useState('kc');
   return (
 
-    <div class="job_Container">
-      <div class='job_buttons'>
+    <div className="job_Container">
+      <div className='job_buttons'>
         {Object.keys(jobs).map((jobKey) => (
           <button  key={jobKey} onClick={() => setActiveJob(jobKey)} className={activeJob === jobKey ? 'activebutton' : ''}>
             {jobs[jobKey].Company}
@@ -72,10 +72,10 @@ function WorkExperience() {
       </div>
 
         <div id='details_container'>
-            <h1 class="activeJobTitle">{jobs[activeJob].Title}</h1>
-            <span class="date">{jobs[activeJob].date}</span>
+            <h1 className="activeJobTitle">{jobs[activeJob].Title}</h1>
+            <span className="date">{jobs[activeJob].date}</span>
             {jobs[activeJob].details.map((detail, index) => (
-                <p class="bulletpoints" key={index}>{detail}</p>
+                <p className="bulletpoints" key={index}>{detail}</p>
             ))}
         </div>
     </div>
@@ -87,10 +87,10 @@ const Work = () => {
   return (
     <section id='work'>
       <div className="maxwidth-60">
-        <h1 class="title">Experience</h1>
-        <p class="paragraph">Here are a few of my work experiences.</p>
+        <h1 className="title">Experience</h1>
+        <p className="paragraph">Here are a few of my work experiences.</p>
       </div>
-        <div class="workExperience_container">
+        <div className="workExperience_container">
         
             {WorkExperience()}
         </div>
