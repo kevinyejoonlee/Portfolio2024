@@ -16,8 +16,6 @@ import ProjectsPage from "./pages/ProjectsPage.js";
 import ExperencePage from "./pages/ExperiencePage.js";
 
 
-
-
 function App() {
   return (
 
