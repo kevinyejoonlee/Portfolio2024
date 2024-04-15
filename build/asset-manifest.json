@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.dd920d0b.css",
-    "main.js": "/static/js/main.2515bac6.js",
+    "main.js": "/static/js/main.efd0b84e.js",
     "static/media/guitar2.jpg": "/static/media/guitar2.33c19cbf69c5dc7c5134.jpg",
     "static/media/laptop.jpg": "/static/media/laptop.e6864c6af6b4792a3779.jpg",
     "static/media/kcphoto3.jpg": "/static/media/kcphoto3.3ead425f3d19d07a9971.jpg",
     "static/media/ranch_kevin.jpg": "/static/media/ranch_kevin.08b2c3c811ee1a007dc2.jpg",
     "static/media/ctrl_y.jpg": "/static/media/ctrl_y.e9be5a7332ecc43eb31f.jpg",
+    "static/media/turkey.jpg": "/static/media/turkey.8c603b6fb0e52ec86ec6.jpg",
     "static/media/portfolio.jpg": "/static/media/portfolio.e2ee9223264bd3e6576a.jpg",
     "static/media/bjj_win.JPG": "/static/media/bjj_win.d00f83bbba419003dc37.JPG",
     "static/media/team_photo.JPG": "/static/media/team_photo.0ca433c9f6a3b623a8a8.JPG",
@@ -21,10 +22,10 @@
     "static/media/moon.svg": "/static/media/moon.3e93e6670f6d60ad3acdee48b48c60cf.svg",
     "static/media/stack.svg": "/static/media/stack.bdb9ba4e584a536f88d2259ce78d1241.svg",
     "main.dd920d0b.css.map": "/static/css/main.dd920d0b.css.map",
-    "main.2515bac6.js.map": "/static/js/main.2515bac6.js.map"
+    "main.efd0b84e.js.map": "/static/js/main.efd0b84e.js.map"
   },
   "entrypoints": [
     "static/css/main.dd920d0b.css",
-    "static/js/main.2515bac6.js"
+    "static/js/main.efd0b84e.js"
   ]
 }

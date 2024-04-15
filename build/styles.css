@@ -4,11 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-
   }
   
   body {
-
     /* background:rgb(250,250,250); */
     background:rgb(250,250,250);
     color: rgb(39,39,42);
@@ -17,7 +15,6 @@
   }
   
 .iconpf{
-
     object-fit: cover;
     height: 4.5rem;
     width: 4.5rem;
