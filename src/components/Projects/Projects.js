@@ -8,7 +8,8 @@ import memegame from "../../assets/symbols/memegame.jpg";
 import portfolio from "../../assets/symbols/portfolio.jpg";
 import ctrl_y from "../../assets/symbols/ctrl_y.jpg";
 import todo from "../../assets/symbols/todo.jpeg";
-import coming_soon from "../../assets/symbols/coming_soon.png"; 
+// import comingSoon from "../../assets/symbols/coming_soon.png"; 
+import Türkyie from "../../assets/symbols/turkey.jpg"; 
 
 
 const Projects = () => {
@@ -52,6 +53,16 @@ const Projects = () => {
       githubLink: "https://github.com/kevinyejoonlee/Meme-Memory-Game",
       liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
     },
+
+
+    {
+      image: Türkyie,
+      title: "Fundraiser Tracker",
+      description: " A website that connects to Google Sheets to generate a doughnut chart for tracking fundraising progress.",
+      skills: ["#React.js", "#GoogleSheetsAPI"],
+      githubLink: "https://github.com/kevinyejoonlee/Turkey-Fundraise-Website",
+      liveLink: "https://kevinyejoonlee.github.io/Turkey-Fundraise-Website/"
+    },
     {
       image: todo,
       title: "To Do List",
@@ -69,6 +80,7 @@ const Projects = () => {
       githubLink: "https://github.com/kevinyejoonlee/Kevin_Portfolio2024",
       liveLink: "https://kevinyejoonlee.com/"
     }
+    
     
 
 
