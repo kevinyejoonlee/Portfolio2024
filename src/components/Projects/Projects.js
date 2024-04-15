@@ -26,9 +26,7 @@ const Projects = () => {
     });
   }, []);
 
-  const projects = [
-    
-  {
+  const projects = [{
       image: autoscore,
       title: "AutoScore",
       description: "This project aids teaching assistance by automating the process of grading assignments for a Java course, marking the code, and seamlessly submitting the grades to MyLearningSpace.",
@@ -53,7 +51,6 @@ const Projects = () => {
       githubLink: "https://github.com/kevinyejoonlee/Meme-Memory-Game",
       liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
     },
-
     {
       image: Türkyie,
       title: "Fundraiser Tracker",
@@ -78,7 +75,6 @@ const Projects = () => {
       githubLink: "https://github.com/kevinyejoonlee/Kevin_Portfolio2024",
       liveLink: "https://kevinyejoonlee.com/"
     }
-
   ];
 
   return (
