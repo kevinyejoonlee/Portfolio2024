@@ -54,7 +54,6 @@ const Projects = () => {
       liveLink: "https://kevinyejoonlee.github.io/Meme-Memory-Game/"
     },
 
-
     {
       image: Türkyie,
       title: "Fundraiser Tracker",
@@ -81,8 +80,6 @@ const Projects = () => {
       liveLink: "https://kevinyejoonlee.com/"
     }
     
-    
-
 
   ];
 
