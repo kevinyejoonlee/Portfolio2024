@@ -16,7 +16,7 @@ const TypingEffect = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Front-End Developer",
+        "Software Developer",
         "Music Enthusiast",
         "Jiu Jitsu player"
       ],
