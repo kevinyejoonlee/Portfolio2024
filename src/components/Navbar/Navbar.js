@@ -15,7 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     const icon = document.getElementById("toggle_icon");
     icon.src = theme === 'light' ? sun : moon;
-    document.body.classList.toggle("dark_theme", theme === 'dark');
+    document.body.classList.toggle("dark_theme", theme === 'light');
     localStorage.setItem('theme', theme); 
   }, [theme]);
 
