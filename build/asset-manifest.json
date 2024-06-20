@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07c98c13.css",
-    "main.js": "/static/js/main.55163d9e.js",
+    "main.css": "/static/css/main.cbc87bcf.css",
+    "main.js": "/static/js/main.540edc93.js",
     "static/media/guitar2.jpg": "/static/media/guitar2.33c19cbf69c5dc7c5134.jpg",
     "static/media/tunnel.JPG": "/static/media/tunnel.088e5342f9e3b654ed75.JPG",
     "static/media/laptop.jpg": "/static/media/laptop.e6864c6af6b4792a3779.jpg",
@@ -21,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/moon.svg": "/static/media/moon.3e93e6670f6d60ad3acdee48b48c60cf.svg",
     "static/media/stack.svg": "/static/media/stack.bdb9ba4e584a536f88d2259ce78d1241.svg",
-    "main.07c98c13.css.map": "/static/css/main.07c98c13.css.map",
-    "main.55163d9e.js.map": "/static/js/main.55163d9e.js.map"
+    "main.cbc87bcf.css.map": "/static/css/main.cbc87bcf.css.map",
+    "main.540edc93.js.map": "/static/js/main.540edc93.js.map"
   },
   "entrypoints": [
-    "static/css/main.07c98c13.css",
-    "static/js/main.55163d9e.js"
+    "static/css/main.cbc87bcf.css",
+    "static/js/main.540edc93.js"
   ]
 }
