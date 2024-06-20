@@ -1,5 +1,4 @@
 
-import headshot from "../../assets/Headshots/ranch_kevin.jpg"; 
 
 
 import React, { useEffect, useRef } from 'react';

@@ -1,9 +1,9 @@
 import React from 'react';
 import './skills.css';
 
-import languages from "../../assets/symbols/languages.svg"; 
-import stack from "../../assets/symbols/stack.svg"; 
-import tools from "../../assets/symbols/tools.svg"; 
+// import languages from "../../assets/symbols/languages.svg"; 
+// import stack from "../../assets/symbols/stack.svg"; 
+// import tools from "../../assets/symbols/tools.svg"; 
 
 
 

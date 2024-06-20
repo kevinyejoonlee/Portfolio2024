@@ -41,7 +41,7 @@ const Projects = () => {
       skills: ["#Vue.js", "#DesignathonGroup"],
       githubLink: "https://github.com/uwctrl-y/uwctrly",
       liveLink: "https://ctrlplusy.ca/"
-    },
+    }
     ,
     {
       image: memegame,

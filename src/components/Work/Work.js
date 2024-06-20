@@ -93,14 +93,3 @@ export default Work;
 
 
 
-// future
-{/* <button id="downloadButton">Download CSV <img id="downloadpng" src={downloadCSV} alt="download svg"></img></button> */}
-
-{/* <div class="contact_container">
-            <img class= "svg" src="" alt="Email Kevin"></img>
-            <h1 >Email.</h1>
-            <p>Send a direct Email to Kevin.</p>
-            <input class= "input" type="text" placeholder="Your Email"></input>
-            <input class= "input body" type="text" placeholder="Message"></input>
-            <button >Send</button>
-        </div> */}
