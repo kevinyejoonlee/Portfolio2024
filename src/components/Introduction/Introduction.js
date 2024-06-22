@@ -46,7 +46,7 @@ const Introduction = () => {
         <h1 className="title">Kevin Ye-Joon Lee<br></br><TypingEffect/></h1>
         <div className="maxwidth-60">
           <h1 className="paragraph">
-          I love creating and designing; it makes me feel alive. I believe a growth mindset and discipline can get you anywhere. I'm currently looking for internships in Spring/Fall 2024. If you like my work, please get in touch with me!
+          I love creating and designing; it makes me feel alive. I believe a growth mindset and discipline can get you anywhere. I'm currently looking for internships in Fall 2024. If you like my work, please get in touch with me!
           </h1>
         </div>
 
