@@ -34,7 +34,7 @@ const Projects = () => {
       title: "TeamFlow",
       description: "TeamFlow is a Remote Collaboration Platform that allows a team to work together in real-time. The platform uses collaborative document editing, enabling multiple users to edit documents simultaneously and efficiently.",
       skills: ["#React/Redux", "#WebSocket's, WebRTC", "#PostgreSQL", "#Django Restful APIs"],
-      githubLink: "https://github.com/kevinyejoonlee/Remote-Collaboration-Platform/blob/main/README.md",
+      githubLink: "https://github.com/kevinyejoonlee/Remote-Collaboration-Platform",
       liveLink: ""
     },{
       image: autoscore,
