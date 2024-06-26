@@ -10,6 +10,7 @@ import ctrl_y from "../../assets/symbols/ctrl_y.jpg";
 import todo from "../../assets/symbols/todo.jpeg";
 // import comingSoon from "../../assets/symbols/coming_soon.png"; 
 import Türkyie from "../../assets/symbols/turkey.jpg"; 
+import TeamFlow from "../../assets/symbols/TeamFlow.jpeg"; 
 
 
 const Projects = () => {
@@ -26,7 +27,16 @@ const Projects = () => {
     });
   }, []);
 
-  const projects = [{
+  const projects = [
+    
+    {
+      image: TeamFlow,
+      title: "TeamFlow",
+      description: "TeamFlow is a Remote Collaboration Platform that allows a team to work together in real-time. The platform uses collaborative document editing, enabling multiple users to edit documents simultaneously and efficiently.",
+      skills: ["#React/Redux", "#WebSocket's, WebRTC", "#PostgreSQL", "#Django Restful APIs"],
+      githubLink: "https://github.com/kevinyejoonlee/Remote-Collaboration-Platform/blob/main/README.md",
+      liveLink: ""
+    },{
       image: autoscore,
       title: "AutoScore",
       description: "This project aids teaching assistance by automating the process of grading assignments for a Java course, marking the code, and seamlessly submitting the grades to MyLearningSpace.",
