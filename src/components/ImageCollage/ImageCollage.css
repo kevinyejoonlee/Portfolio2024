@@ -19,11 +19,8 @@
     max-height: 320px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px var(--shadow-color);
-    object-fit: cover;
-
-  
+    object-fit: cover
 }
-
 
 
 @media (max-width: 903px) {

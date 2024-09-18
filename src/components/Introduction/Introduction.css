@@ -23,6 +23,26 @@
     
 }
 
+.name_title{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 1rem 0rem 1rem 6rem;
+    color: var(--main-text);
+    line-height: 3.5rem;
+    animation: text_load 0.3s ease-in;
+    
+}
+
+.job_title{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0rem 0rem 1rem 6rem;
+    color: var(--main-text);
+    line-height: 3.5rem;
+    animation: text_load 0.3s ease-in;
+    
+}
+
 .dynamic_text{
     font-size: 4rem;
     font-weight: 600;
@@ -73,9 +93,14 @@ svg:hover{
 }
 
 @media (max-width: 903px) {
-    .title {
+    .name_title{
         font-size: 2rem;
         margin: 4rem 1rem 0 1rem;
+        line-height: 1;
+    }
+    .job_title{
+        font-size: 2rem;
+        margin: 0rem 1rem 0 1rem;
         line-height: 1;
     }
     .dynamic_text{

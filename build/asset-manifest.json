@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbc87bcf.css",
-    "main.js": "/static/js/main.19112ff1.js",
+    "main.css": "/static/css/main.8ae1fd0d.css",
+    "main.js": "/static/js/main.68cf9bd9.js",
     "static/media/guitar2.jpg": "/static/media/guitar2.33c19cbf69c5dc7c5134.jpg",
     "static/media/tunnel.JPG": "/static/media/tunnel.088e5342f9e3b654ed75.JPG",
     "static/media/laptop.jpg": "/static/media/laptop.e6864c6af6b4792a3779.jpg",
@@ -18,11 +18,11 @@
     "static/media/link.svg": "/static/media/link.cd37e952c11c7428c92d6e5ea92c8b0c.svg",
     "index.html": "/index.html",
     "static/media/moon.svg": "/static/media/moon.3e93e6670f6d60ad3acdee48b48c60cf.svg",
-    "main.cbc87bcf.css.map": "/static/css/main.cbc87bcf.css.map",
-    "main.19112ff1.js.map": "/static/js/main.19112ff1.js.map"
+    "main.8ae1fd0d.css.map": "/static/css/main.8ae1fd0d.css.map",
+    "main.68cf9bd9.js.map": "/static/js/main.68cf9bd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbc87bcf.css",
-    "static/js/main.19112ff1.js"
+    "static/css/main.8ae1fd0d.css",
+    "static/js/main.68cf9bd9.js"
   ]
 }

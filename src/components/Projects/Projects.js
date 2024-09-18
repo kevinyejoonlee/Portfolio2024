@@ -92,7 +92,7 @@ const Projects = () => {
       <div className="maxwidth-60 margin-title">
         <h1 className='title'>Projects</h1>
         <h1 className="paragraph">
-          Here are a few personal projects & a few cool things I got to work on.
+          Here are my projects.
         </h1>
       </div>
 

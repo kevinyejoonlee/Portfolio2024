@@ -79,7 +79,7 @@ const Work = () => {
     <section id='work'>
       <div className="maxwidth-60">
         <h1 className="title">Experience</h1>
-        <p className="paragraph">Here are a few of my experiences.</p>
+        <p className="paragraph">Here are my experiences.</p>
       </div>
         <div className="workExperience_container">
         
