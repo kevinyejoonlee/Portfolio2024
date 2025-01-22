@@ -8,7 +8,8 @@ const Introduction = () => {
         <h1 className="job_title">Aspiring 10x Software Engineer</h1>
         <div className="maxwidth-60">
           <h1 className="paragraph">
-          I believe a growth mindset and discipline can get you anywhere. 
+          Romans 5:8 - But God demonstrates his own love for us in this: <br></br>
+          While we were still sinners, Christ died for us.
           </h1>
         </div>
 
