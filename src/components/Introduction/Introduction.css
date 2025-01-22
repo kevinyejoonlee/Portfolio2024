@@ -66,6 +66,11 @@
     margin: 1rem 0 1rem 6rem;
     line-height: 2rem;
     animation: text_load 0.3s ease-in;
+
+}
+
+.paragraph > *{
+    color: var(--dark-grey);
 }
 
 .socialMediaMenu_Container{
@@ -114,6 +119,8 @@ svg:hover{
     .paragraph{
         font-size: 1rem;
         margin: 0 1rem 0 1rem;
+        max-width: 80%;
+
     }
     .socialMediaMenu_Container{
         margin: 1rem 1rem 0 1rem;
