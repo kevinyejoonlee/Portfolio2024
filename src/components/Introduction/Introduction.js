@@ -4,8 +4,8 @@ import './Introduction.css';
 const Introduction = () => {
   return (
     <section id='Introduction'>
-        <h1 className="name_title">Kevin Ye-Joon Lee</h1>
-        <h1 className="job_title">Aspiring SWE</h1>
+        <h1 className="name_title">Kevin (Ye-Joon) Lee</h1>
+        <h1 className="job_title">Aspiring 10x Software Engineer</h1>
         <div className="maxwidth-60">
           <h1 className="paragraph">
           I believe a growth mindset and discipline can get you anywhere. 
