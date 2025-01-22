@@ -78,7 +78,7 @@ const Work = () => {
   return (
     <section id='work'>
       <div className="maxwidth-60">
-        <h1 className="title">Experience</h1>
+        <h1 className="name_title">Experience</h1>
         <p className="paragraph">Here are my experiences.</p>
       </div>
         <div className="workExperience_container">

@@ -90,7 +90,7 @@ const Projects = () => {
   return (
     <section id='Body'>
       <div className="maxwidth-60 margin-title">
-        <h1 className='title'>Projects</h1>
+        <h1 className='name_title'>Projects</h1>
         <h1 className="paragraph">
           Here are my projects.
         </h1>
