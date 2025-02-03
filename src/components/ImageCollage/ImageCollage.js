@@ -2,10 +2,10 @@ import React from 'react';
 import './ImageCollage.css';
 
 import guitar from "../../assets/CollagePhotos/guitar2.jpg"; 
-import tunnel from "../../assets/CollagePhotos/tunnel.jpg"; 
-import laptop from "../../assets/CollagePhotos/laptop.jpg"; 
-import traveled from "../../assets/CollagePhotos/saltlake.jpg"; 
-import team from "../../assets/CollagePhotos/team_photo.jpg"; 
+import tunnel from "../../assets/CollagePhotos/tunnel.JPG"; 
+// import laptop from "../../assets/CollagePhotos/laptop.jpg"; 
+import traveled from "../../assets/CollagePhotos/saltlake.JPG"; 
+import team from "../../assets/CollagePhotos/team_photo.JPG"; 
 import books from "../../assets/CollagePhotos/books.jpg"; 
 
 const ImageCollage = () => {
