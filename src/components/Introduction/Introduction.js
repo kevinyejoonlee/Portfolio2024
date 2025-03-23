@@ -22,7 +22,7 @@ const Introduction = () => {
           {isMobile ? "Kevin Lee" : "Kevin (Ye-Joon) Lee"}
         </h1>
         <h1 className="job_title">
-          {isMobile ? "Aspiring 10x SWE" : "Aspiring 10x Software Engineer"}
+          {isMobile ? "Aspiring 10x SWE" : "Aspiring CS Researcher"}
         </h1>
         <div className="maxwidth-60">
           <h1 className="paragraph">
