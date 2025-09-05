@@ -29,7 +29,7 @@ const Introduction = () => {
             {isMobile ? (
               <a href="https://www.bible.com/bible/111/ROM.5.8">Romans 5:8<br></br>But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.</a>
             ) : (
-              "This Website is being deprecated."
+              "This website is being deprecated soon."
             )}
           </h1>
         </div>
