@@ -22,14 +22,14 @@ const Introduction = () => {
           {isMobile ? "Kevin Lee" : "Kevin (Ye-Joon) Lee"}
         </h1>
         <h1 className="job_title">
-          Building things
+          Building Things
         </h1>
         <div className="maxwidth-60">
           <h1 className="paragraph">
-
+            {isMobile ? (
               <a href="https://www.bible.com/bible/111/ROM.5.8">Romans 5:8<br></br>But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.</a>
             ) : (
-              "Romans 5:8 - But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."
+              "This Website is being deprecated."
             )}
           </h1>
         </div>
